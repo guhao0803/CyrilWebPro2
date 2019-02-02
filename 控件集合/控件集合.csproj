@@ -1,0 +1,183 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>控件集合</RootNamespace>
+    <AssemblyName>控件集合</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html5播放器\dist\fonts\ckin.eot" />
+    <Content Include="html5播放器\dist\fonts\ckin.ttf" />
+    <Content Include="html5播放器\dist\fonts\ckin.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="用户名密码验证css\scss\style.scss" />
+    <Content Include="日期选择工具\css\font\iconfont.eot" />
+    <Content Include="日期选择工具\css\font\iconfont.ttf" />
+    <Content Include="日期选择工具\css\font\iconfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3D图片轮播\img\559.jpg" />
+    <Content Include="3D图片轮播\img\560.jpg" />
+    <Content Include="3D图片轮播\img\562.jpg" />
+    <Content Include="3D图片轮播\img\563.jpg" />
+    <Content Include="3D图片轮播\img\564.jpg" />
+    <Content Include="3D图片轮播\img\567.jpg" />
+    <Content Include="3D图片轮播\index.html" />
+    <Content Include="html5播放器\ckin.jpg" />
+    <Content Include="html5播放器\ckin.mp4" />
+    <Content Include="html5播放器\css\demo.css" />
+    <Content Include="html5播放器\css\normalize.css" />
+    <Content Include="html5播放器\css\reset.css" />
+    <Content Include="html5播放器\dist\css\ckin.css" />
+    <Content Include="html5播放器\dist\js\ckin.js" />
+    <Content Include="html5播放器\index.html" />
+    <Content Include="html5播放器\logo.png" />
+    <Content Include="Web.config" />
+    <Content Include="下拉框联动\css\city-picker.css" />
+    <Content Include="下拉框联动\index.html" />
+    <Content Include="下拉框联动\js\citydata.js" />
+    <Content Include="下拉框联动\js\cityPicker-1.0.0.js" />
+    <Content Include="下拉框联动\js\jquery.min.js" />
+    <Content Include="图片叠加特效\css\index.css" />
+    <Content Include="图片叠加特效\img\left.png" />
+    <Content Include="图片叠加特效\img\photo_1.jpg" />
+    <Content Include="图片叠加特效\img\photo_2.jpg" />
+    <Content Include="图片叠加特效\img\photo_3.jpg" />
+    <Content Include="图片叠加特效\img\photo_4.jpg" />
+    <Content Include="图片叠加特效\img\photo_5.jpg" />
+    <Content Include="图片叠加特效\img\right.png" />
+    <Content Include="图片叠加特效\index.html" />
+    <Content Include="图片叠加特效\js\index.js" />
+    <Content Include="图片叠加特效\js\jquery.min.js" />
+    <Content Include="图片瀑布流布局\images\wall1.jpg" />
+    <Content Include="图片瀑布流布局\images\wall2.jpg" />
+    <Content Include="图片瀑布流布局\images\wall3.jpg" />
+    <Content Include="图片瀑布流布局\images\wall4.jpg" />
+    <Content Include="图片瀑布流布局\images\wall5.jpg" />
+    <Content Include="图片瀑布流布局\images\wall6.jpg" />
+    <Content Include="图片瀑布流布局\images\wall7.jpg" />
+    <Content Include="图片瀑布流布局\images\wall8.jpg" />
+    <Content Include="图片瀑布流布局\index.html" />
+    <Content Include="图片瀑布流布局\js\move.js" />
+    <Content Include="图片瀑布流布局\js\tuozhuai.js" />
+    <Content Include="密码强度验证\css\style.css" />
+    <Content Include="密码强度验证\index.html" />
+    <Content Include="密码强度验证\js\index.js" />
+    <Content Include="密码强度验证\js\jquery.min.js" />
+    <Content Include="彩色倒计时\index.html" />
+    <Content Include="彩色倒计时\js\timecountdown.js" />
+    <Content Include="按钮悬停动画\index.html" />
+    <Content Include="按钮悬停动画\jQuery-2.2.4.min.js" />
+    <Content Include="按钮悬停动画\xs.js" />
+    <Content Include="日期选择工具\css\style.css" />
+    <Content Include="日期选择工具\css\wui.min.css" />
+    <Content Include="日期选择工具\index.html" />
+    <Content Include="日期选择工具\js\angular.min.js" />
+    <Content Include="日期选择工具\js\jquery.min.js" />
+    <Content Include="日期选择工具\js\wui-date.js" />
+    <Content Include="用户名密码验证css\css\normalize.min.css" />
+    <Content Include="用户名密码验证css\css\style.css" />
+    <Content Include="用户名密码验证css\index.html" />
+    <Content Include="用户名密码验证css\js\index.js" />
+    <Content Include="用户名密码验证css\js\jquery.min.js" />
+    <Content Include="进度条\css\ui.css" />
+    <Content Include="进度条\css\ui.progress-bar.css" />
+    <Content Include="进度条\images\bg-tile.png" />
+    <Content Include="进度条\index.html" />
+    <Content Include="进度条\js\jquery.js" />
+    <Content Include="进度条\js\progress.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4392</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4392/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

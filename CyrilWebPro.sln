@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cyrilWeb", "cyrilWeb\cyrilWeb.csproj", "{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控件集合", "控件集合\控件集合.csproj", "{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
