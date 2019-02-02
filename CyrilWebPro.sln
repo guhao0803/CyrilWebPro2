@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cyrilWeb", "cyrilWeb\cyrilWeb.csproj", "{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cyrilWebfor霞姐", "cyrilWeb\cyrilWebfor霞姐.csproj", "{2A4BB2C3-37D6-4A77-8459-80B9F9D7758D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控件集合", "控件集合\控件集合.csproj", "{96B5F981-4DF9-478D-8D41-DC5A8AED9EAF}"
 EndProject
