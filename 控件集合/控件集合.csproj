@@ -58,9 +58,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Echarts数据管理图表界面\bg.png" />
+    <Content Include="Echarts数据管理图表界面\css\bootstrap.css" />
+    <Content Include="Echarts数据管理图表界面\css\index.css" />
+    <Content Include="Echarts数据管理图表界面\index.html" />
+    <Content Include="Echarts数据管理图表界面\js\echarts.min.js" />
+    <Content Include="Echarts数据管理图表界面\js\index.js" />
+    <Content Include="Echarts数据管理图表界面\js\jquery.min.js" />
+    <Content Include="Echarts数据管理图表界面\js\map\shandong.js" />
     <Content Include="html5播放器\dist\fonts\ckin.eot" />
     <Content Include="html5播放器\dist\fonts\ckin.ttf" />
     <Content Include="html5播放器\dist\fonts\ckin.woff" />
+    <Content Include="Echarts数据管理图表界面\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Echarts数据管理图表界面\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Echarts数据管理图表界面\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Echarts数据管理图表界面\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
