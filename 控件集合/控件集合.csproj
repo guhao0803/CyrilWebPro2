@@ -79,6 +79,32 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="分页图片控件\css\animate.min.css" />
+    <Content Include="分页图片控件\css\style.css" />
+    <Content Include="分页图片控件\images\img %281%29.jpg" />
+    <Content Include="分页图片控件\images\img %2810%29.jpg" />
+    <Content Include="分页图片控件\images\img %282%29.jpg" />
+    <Content Include="分页图片控件\images\img %283%29.jpg" />
+    <Content Include="分页图片控件\images\img %284%29.jpg" />
+    <Content Include="分页图片控件\images\img %285%29.jpg" />
+    <Content Include="分页图片控件\images\img %286%29.jpg" />
+    <Content Include="分页图片控件\images\img %287%29.jpg" />
+    <Content Include="分页图片控件\images\img %288%29.jpg" />
+    <Content Include="分页图片控件\images\img %289%29.jpg" />
+    <Content Include="分页图片控件\index.html" />
+    <Content Include="分页图片控件\js\jPages.js" />
+    <Content Include="分页图片控件\js\jquery-1.8.3.min.js" />
+    <Content Include="分页控件\about.png" />
+    <Content Include="分页控件\bg.png" />
+    <Content Include="分页控件\codrops_back.png" />
+    <Content Include="分页控件\css\style.css" />
+    <Content Include="分页控件\images\next.png" />
+    <Content Include="分页控件\images\previous.png" />
+    <Content Include="分页控件\images\snext.png" />
+    <Content Include="分页控件\images\sprevious.png" />
+    <Content Include="分页控件\index.html" />
+    <Content Include="分页控件\jquery-1.3.2.js" />
+    <Content Include="分页控件\jquery.paginate.js" />
     <Content Include="用户名密码验证css\scss\style.scss" />
     <Content Include="日期选择工具\css\font\iconfont.eot" />
     <Content Include="日期选择工具\css\font\iconfont.ttf" />
